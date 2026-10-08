@@ -67,7 +67,7 @@ esf, lsf_profile, spatial_freqs, mtf_output = calculate_mtf_via_edge_profile(blu
 
 # 3. Initialize the 4-Panel Laboratory Dashboard Plot
 fig, axes = plt.subplots(2, 2, figsize=(11, 10))
-fig.suptitle("Electro-Optical (EO) Lens System MTF & SFR Performance Analysis", fontsize=14, fontweight='bold')
+fig.suptitle("EO Sensor MTF & SFR Performance Analysis", fontsize=14, fontweight='bold')
 
 # Panel 1: Ideal input target scene contrast
 im1 = axes[0, 0].imshow(ideal_edge, cmap='gray', vmin=0, vmax=255)
@@ -111,5 +111,5 @@ axes[1, 1].set_ylim(0, 1.05)
 axes[1, 1].grid(True, alpha=0.3)
 
 plt.tight_layout()
-plt.savefig("projects/mtf_sfr_sim/mtf_sfr_sim_plot.png", dpi=300)
+plt.savefig("mtf_sfr_sim_plot.png", dpi=300)
 plt.show()
