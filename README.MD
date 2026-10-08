@@ -1,4 +1,4 @@
-# Electro-Optical System Modulation Transfer Function & Spatial Frequency Response Simulator
+# Modulation Transfer Function & Spatial Frequency Response Simulator
 
 ![System MTF Analysis Dashboard](mtf_sfr_sim_plot.png)
 
